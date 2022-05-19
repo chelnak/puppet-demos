@@ -1,0 +1,48 @@
+{
+  "name": "craig.gumbley-test_module",
+  "author": "craig.gumbley",
+  "summary": "A bare bones Puppet Module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/craig.gumbley/test_module",
+  "dependencies": [
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.21.0 < 8.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": ["2019","10"]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": ["20.04","18.04"]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": ["7","8"]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": ["7","8"]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": ["10"]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": ["7"]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": ["7"]
+    }
+  ],
+  "pdk-version": "0.5.0-d365a90",
+  "template-url": "https://github.com/puppetlabs/baker-round",
+  "template-ref": "0.1.0"
+}
